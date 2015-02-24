@@ -127,7 +127,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#2d2ae2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,10 +176,10 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#1a4196</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
