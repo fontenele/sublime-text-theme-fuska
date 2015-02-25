@@ -70,7 +70,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Fuska/Fuska/close.png",
+        "layer0.texture": "ThemeFuska/Fuska/close.png",
         "layer0.opacity": 0,
         "layer0.tint": [250, 250, 250] // 03
     },
@@ -82,7 +82,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/close.png",
+        "layer0.texture": "ThemeFuska/Fuska/close.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [250, 250, 250]
     },
@@ -102,7 +102,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/circle.png",
+        "layer0.texture": "ThemeFuska/Fuska/circle.png",
         "layer0.tint": [235, 203, 139], // 0A
         "layer0.opacity": 1.0
     },
@@ -116,7 +116,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/close.png",
+        "layer0.texture": "ThemeFuska/Fuska/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
         "layer0.tint": [191, 97, 106] // 08
@@ -203,7 +203,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Fuska/Fuska/folder-closed.png",
+        "layer0.texture": "ThemeFuska/Fuska/folder-closed.png",
         "layer0.tint": [167, 173, 186], // 04
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
@@ -217,7 +217,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Fuska/Fuska/folder-open.png"
+        "layer0.texture": "ThemeFuska/Fuska/folder-open.png"
     },
     {
         "class": "fold_button_control",
@@ -528,7 +528,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Fuska/Fuska/close.png",
+        "layer0.texture": "ThemeFuska/Fuska/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [250, 250, 250], // 03
@@ -548,7 +548,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Fuska/Fuska/circle.png",
+        "layer0.texture": "ThemeFuska/Fuska/circle.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [235, 203, 139] // 0A
     },
@@ -556,7 +556,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/circle.png"
+        "layer0.texture": "ThemeFuska/Fuska/circle.png"
     },
     // Sidebar file close hover
     {
@@ -568,7 +568,7 @@
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/close.png",
+        "layer0.texture": "ThemeFuska/Fuska/close.png",
         "layer0.tint": [191, 97, 106] // 08
     },
 
@@ -580,7 +580,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Fuska/Fuska/folder-closed.png",
+        "layer0.texture": "ThemeFuska/Fuska/folder-closed.png",
         "layer0.tint": [51, 151, 51], // 02
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -598,7 +598,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Fuska/Fuska/folder-open.png"
+        "layer0.texture": "ThemeFuska/Fuska/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -609,7 +609,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Fuska/Fuska/folder-open.png"
+        "layer0.texture": "ThemeFuska/Fuska/folder-open.png"
     },
 
     //
@@ -835,7 +835,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Fuska/Fuska/regex.png",
+        "layer0.texture": "ThemeFuska/Fuska/regex.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -849,7 +849,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Fuska/Fuska/casesens.png",
+        "layer0.texture": "ThemeFuska/Fuska/casesens.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -862,7 +862,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Fuska/Fuska/wholeword.png",
+        "layer0.texture": "ThemeFuska/Fuska/wholeword.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -880,7 +880,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Fuska/Fuska/context.png",
+        "layer0.texture": "ThemeFuska/Fuska/context.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -893,7 +893,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Fuska/Fuska/buffer.png",
+        "layer0.texture": "ThemeFuska/Fuska/buffer.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -910,7 +910,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Fuska/Fuska/reverse.png",
+        "layer0.texture": "ThemeFuska/Fuska/reverse.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -923,7 +923,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Fuska/Fuska/wrap.png",
+        "layer0.texture": "ThemeFuska/Fuska/wrap.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -936,7 +936,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Fuska/Fuska/selection.png",
+        "layer0.texture": "ThemeFuska/Fuska/selection.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -954,7 +954,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Fuska/Fuska/lock.png",
+        "layer0.texture": "ThemeFuska/Fuska/lock.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -972,7 +972,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Fuska/Fuska/highlight.png",
+        "layer0.texture": "ThemeFuska/Fuska/highlight.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
